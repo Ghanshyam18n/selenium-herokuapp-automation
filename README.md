@@ -1,6 +1,6 @@
-# 🌐 Selenium Automation Framework – The Internet (Herokuapp)
+#  Selenium Automation Framework – The Internet (Herokuapp)
 
-## 📌 Project Overview  
+##  Project Overview  
 
 This project is based on Selenium automation where I worked on testing different UI scenarios in a structured way.  
 
@@ -9,7 +9,7 @@ It has multiple small modules, and each one helps in understanding a specific co
 
 ---
 
-## 🎯 Objective  
+##  Objective  
 
 The main idea behind this project was simple:  
 
@@ -22,7 +22,7 @@ I focused more on understanding the behavior rather than just writing code.
 
 ---
 
-## 🧩 Modules Covered  
+##  Modules Covered  
 
 I worked on different modules to cover important Selenium concepts.
 
@@ -62,7 +62,7 @@ I worked on different modules to cover important Selenium concepts.
 
 ---
 
-## 🔄 Test Execution Flow  
+##  Test Execution Flow  
 
 - Launch browser  
 - Open application  
@@ -72,7 +72,7 @@ I worked on different modules to cover important Selenium concepts.
 
 ---
 
-## 🏗️ Framework Design  
+##  Framework Design  
 
 This project follows the Page Object Model (POM) design pattern.  
 
