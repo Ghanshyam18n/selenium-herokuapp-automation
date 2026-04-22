@@ -1,111 +1,91 @@
- Project Overview
+# 🌐 Selenium Automation Framework – The Internet (Herokuapp)
 
-This project is a Selenium-based automation framework designed to test real-world UI scenarios using a structured and maintainable approach.
+## 📌 Project Overview  
 
-The application under test is The Internet (Herokuapp), which provides multiple independent modules to practice core Selenium concepts.
+This project is based on Selenium automation where I worked on testing different UI scenarios in a structured way.  
 
- Objective
-Automate real-time user scenarios
-Strengthen Selenium WebDriver concepts
-Implement Page Object Model (POM) design pattern
-Ensure validation after each user action
+For this, I used The Internet (Herokuapp), which is a great platform to practice real-time Selenium concepts.  
+It has multiple small modules, and each one helps in understanding a specific concept clearly.
 
- Modules Covered
+---
 
-This project covers multiple important automation scenarios:
+## 🎯 Objective  
 
-🔹 1. Login (Form Authentication)
-Valid login
-Invalid login
-Success and error message validation
-🔹 2. Checkboxes
-Select checkbox
-Unselect checkbox
-Verify checkbox state
-🔹 3. Dynamic Controls
-Remove and add checkbox
-Enable and disable input field
-Validate dynamic messages
-🔹 4. JavaScript Alerts
-Handle alert popup
-Handle confirm popup
-Validate result messages
-🔹 5. Dropdown
-Select option using Select class
-Verify selected value
-🔹 6. iFrame Handling
-Switch to iframe
-Perform text operations
-Switch back to main page
-🔹 7. File Upload
-Upload file using sendKeys
-Verify upload success message
-🔹 8. Drag and Drop
-Perform drag and drop using Actions class
-Validate element position change
+The main idea behind this project was simple:  
 
-🔄 Test Execution Flow
-Launch browser
-Navigate to application URL
-Execute login scenarios
-Perform checkbox validations
-Test dynamic controls
-Handle JavaScript alerts
-Validate dropdown selection
-Perform iframe operations
-Upload file and verify
-Execute drag and drop
-Close browser
+- Automate real user actions  
+- Get comfortable with Selenium WebDriver  
+- Learn and apply Page Object Model (POM)  
+- Add proper validation after every step  
 
- 
- Framework Design
+I focused more on understanding the behavior rather than just writing code.
 
-This framework follows the Page Object Model (POM) for better code organization and maintainability.
+---
 
-📁 Project Structure
-src/test/java
-│
-├── base
-│     └── BaseTest.java
-│
-├── pages
-│     ├── LoginPage.java
-│     ├── CheckboxPage.java
-│     ├── DynamicControlsPage.java
-│     ├── AlertsPage.java
-│     ├── DropdownPage.java
-│     ├── IframePage.java
-│     ├── FileUploadPage.java
-│     └── DragAndDropPage.java
-│
-└── tests
-      └── HerokuAppTest.java
-      
-⚙️ Technologies Used
-Java
-Selenium WebDriver
-TestNG
-Maven
-ChromeDriver
+## 🧩 Modules Covered  
 
- Key Highlights
-Clean and modular framework design
-Reusable methods using POM
-Clear separation of test logic and page actions
-Handling of dynamic elements and waits
-Alert, iframe, dropdown, and file handling
+I worked on different modules to cover important Selenium concepts.
 
-🚀 How to Run
-Clone the repository
-Open the project in Eclipse or IntelliJ
-Install Maven dependencies
-Run the test class: HerokuAppTest.java
-💡 Learning Outcome
+### 🔹 Login (Form Authentication)  
+- Tested both valid and invalid login scenarios  
+- Verified success and error messages  
 
-Through this project, I gained practical experience in:
+### 🔹 Checkboxes  
+- Selected and unselected checkboxes  
+- Verified checkbox state  
 
-Handling dynamic web elements
-Working with alerts and popups
-Managing dropdowns and iframes
-Uploading files and performing drag-and-drop actions
-Designing a structured automation framework using POM
+### 🔹 Dynamic Controls  
+- Removed and added checkbox  
+- Enabled and disabled input field  
+- Verified dynamic messages  
+
+### 🔹 JavaScript Alerts  
+- Handled alert and confirm popups  
+- Verified result messages  
+
+### 🔹 Dropdown  
+- Selected options using Select class  
+- Verified selected value  
+
+### 🔹 iFrame Handling  
+- Switched into iframe  
+- Performed actions inside frame  
+- Switched back to main page  
+
+### 🔹 File Upload  
+- Uploaded file using sendKeys  
+- Verified upload success  
+
+### 🔹 Drag and Drop  
+- Performed drag and drop using Actions class  
+- Verified element position change  
+
+---
+
+## 🔄 Test Execution Flow  
+
+- Launch browser  
+- Open application  
+- Perform module actions  
+- Validate each step  
+- Close browser  
+
+---
+
+## 🏗️ Framework Design  
+
+This project follows the Page Object Model (POM) design pattern.  
+
+- Page classes contain locators and methods  
+- Test class contains test flow and validations  
+
+This keeps the code clean and easy to maintain.
+
+---
+
+## 📁 Project Structure  
+<img width="349" height="211" alt="image" src="https://github.com/user-attachments/assets/7796afb9-6aa3-43de-af07-8aca759ff6e7" />
+<img width="347" height="295" alt="image" src="https://github.com/user-attachments/assets/144a2135-c781-4eaf-9caa-ea1d39d0def9" />
+<img width="288" height="87" alt="image" src="https://github.com/user-attachments/assets/3ef6cf9f-a0ea-4ba1-bfc7-ab209814f154" />
+
+
